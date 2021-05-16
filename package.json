@@ -2,7 +2,7 @@
   "name": "optimal-id",
   "version": "1.0.0",
   "description": "generates an optimized string based id value suitable for nosql database unique keys",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/RichardMarks/optimal-id.git"
