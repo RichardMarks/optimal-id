@@ -1,0 +1,26 @@
+{
+  "name": "optimal-id",
+  "version": "1.0.0",
+  "description": "generates an optimized string based id value suitable for nosql database unique keys",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardMarks/optimal-id.git"
+  },
+  "author": "Richard Marks <ccpsceo@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "test": "jest --passWithNoTests"
+  }
+}
